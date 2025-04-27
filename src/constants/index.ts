@@ -22,7 +22,6 @@ import {
   mongodb,
   git,
   figma,
-  starbucks,
 } from "../assets";
 
 import Nextjs from "../assets/tech/Nextjs.png"
@@ -30,7 +29,7 @@ import Express from "../assets/tech/Express.png"
 import Golobe from "../assets/Golobe.png"
 import Tasky from "../assets/Tasky.png"
 import Aiapp from "../assets/Aiapp.png"
-
+import zephy from "../assets/company/zephy1.png"
 
 export const navLinks: TNavLink[] = [
   {
@@ -130,7 +129,7 @@ const experiences: TExperience[] = [
   {
     title: "Frontend Developer",
     companyName: "Zephy Solutions",
-    icon: starbucks,
+    icon: zephy,
     iconBg: "#383E56",
     date: " July 2024 - Present",
     points: [
